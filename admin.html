@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Admin Panel</h2>
+
+        <h3>Add Exam</h3>
+        <form>
+            <input type="text" placeholder="Subject">
+            <input type="date">
+            <input type="time">
+            <button>Add Exam</button>
+        </form>
+
+        <h3>Exam List</h3>
+        <ul>
+            <li>Math - 2026-05-01 - 09:00</li>
+            <li>English - 2026-05-02 - 10:00</li>
+        </ul>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+
+</body>
+
+</html>
